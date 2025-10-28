@@ -24,7 +24,7 @@ export const HeroSection = ({ data }: HeroSectionProps) => {
           className="text-center"
         >
           <motion.h1
-            className="text-7xl md:text-9xl font-display font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent tracking-tight"
+            className="text-7xl md:text-8xl font-display font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent tracking-tight"
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
