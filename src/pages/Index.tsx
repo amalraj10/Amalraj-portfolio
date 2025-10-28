@@ -39,15 +39,12 @@ const Index = () => {
         <Canvas>
           <PerspectiveCamera makeDefault position={[0, 0, 10]} />
           <ambientLight intensity={0.5} />
-          <pointLight position={[10, 10, 10]} intensity={1} color="#00d4ff" />
-          <pointLight position={[-10, -10, -10]} intensity={0.5} color="#ff00ff" />
+      
           
           <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
           <ParticleField count={800} />
           
-          <FloatingOrb position={[-4, 2, -5]} color="#00d4ff" />
-          <FloatingOrb position={[4, -2, -8]} color="#ff00ff" />
-          <AnimatedRing radius={3} position={[0, 0, -10]} />
+      
           
           <TechCube position={[-6, 0, -5]} speed={0.5} />
           <TechCube position={[6, 0, -5]} speed={0.7} />
