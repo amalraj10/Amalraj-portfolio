@@ -23,7 +23,7 @@ export const portfolioData = {
     {
       title: "MERN Stack Developer",
       company: "Reon Technologies",
-      period: "July 2024 – Present",
+      period: "July 2024 – September 2025",
       highlights: [
         "Designed and deployed full-scale ERP system (Accounting, Sales, CRM, HRMS, Inventory) using React.js, TypeScript, Ant Design, and NestJS with PostgreSQL backend, streamlining operations and reducing manual workflows by 40% for 200+ daily active users.",
         "Accelerated frontend performance by 40% through dynamic imports, code-splitting, lazy loading, and React.memo optimization, reducing page load time from 4.2s to 2.5s and achieving 100% mobile responsiveness.",
