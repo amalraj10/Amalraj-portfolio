@@ -16,7 +16,7 @@ interface HeroSectionProps {
 export const HeroSection = ({ data }: HeroSectionProps) => {
   return (
     <div className="min-h-screen flex items-center justify-center relative">
-      <div className="max-w-6xl mx-auto px-4 z-10">
+      <div className="max-w-7xl mx-auto px-4 z-10">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ export const HeroSection = ({ data }: HeroSectionProps) => {
           className="text-center"
         >
           <motion.h1
-            className="text-7xl md:text-9xl font-display font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent tracking-tight"
+            className="text-5xl md:text-9xl font-display  mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent tracking-tight"
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}

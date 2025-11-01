@@ -1,6 +1,6 @@
 export const portfolioData = {
   personal: {
-    name: "Amalraj PM",
+    name: "AMALRAJ PM",
     title: "MERN Stack Developer | React.js Specialist",
     email: "amalrajpm788@gmail.com",
     phone: "+91 9074980006",
